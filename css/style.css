@@ -1,42 +1,102 @@
+.container-fluid{
+	width: 100%;
+}
+.container{
+	width: 1170px;
+	margin:auto;
+}
+
 html , body{
 	width: 100%;
 	height: 100%;
 }
 
+.navigation{
+	float: right;
+	padding-top: 28px;
+}
 li{
 	display: inline-block;
-	float: right;
 	font-size: 24px;
-	margin-left: 20px;
-
+	margin-left: 15px;
+	font-family: 'Roboto', sans-serif;
+	
 }
-.navigation{
-	margin-right: 93px;
+.nav-a{
+	color: #3D58A6;
 }
 .clear{
 	clear:both;
 }
 .logo{
-	margin-left: 93px;
-	padding-top: 28px;
+	padding-top: 16px;
+	margin-bottom: 16px;
 
 }
-.continer-1{
+.container-1{
+	height: 518px;
+	background-color:#E6E6E6;
+	width: 100%;
 	position: relative;
 }
-
-.comp{
+.banner-img{
 	position: absolute;
-	top: 36px;
-	left: 93px;
+	top: 33px;
 }
-.mini{
+.html-logo{
 	position: absolute;
-	bottom: 55px;
-	right: 127px;
+	right: 126px;
+	bottom: 30px;
 }
 .text{
 	position: absolute;
-	bottom: 55px;
+	bottom: 22px;
 	left: 124px;
+}
+.container-2{
+	height: 518px;
+	background-color:#363E97;
+	width: 100%;
+	position: relative;
+}
+.mini-container-1{
+	width: 570px;
+	height: 320px;
+	background-color: #fff;
+	position: absolute;
+	top:90px;
+}
+.mini-container-2{
+	width: 570px;
+	height: 320px;
+	background-color: #fff;
+	position: absolute;
+	top:90px;
+	right:100px;
+}
+.container-2head{
+	padding-top: 35px;
+}
+.parag{
+	position: absolute;
+	bottom: 144px;
+	left: 127px;
+	font-size: 17px;
+	font-family: 'Roboto', sans-serif;
+}
+.head-parag{
+	display: inline-block;
+	font-size: 24px;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+
+
+}
+.divider{
+	width: 2px;
+	height: 20px;
+	background-color: #fff;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
 }
