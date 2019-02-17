@@ -1,0 +1,42 @@
+html , body{
+	width: 100%;
+	height: 100%;
+}
+
+li{
+	display: inline-block;
+	float: right;
+	font-size: 24px;
+	margin-left: 20px;
+
+}
+.navigation{
+	margin-right: 93px;
+}
+.clear{
+	clear:both;
+}
+.logo{
+	margin-left: 93px;
+	padding-top: 28px;
+
+}
+.continer-1{
+	position: relative;
+}
+
+.comp{
+	position: absolute;
+	top: 36px;
+	left: 93px;
+}
+.mini{
+	position: absolute;
+	bottom: 55px;
+	right: 127px;
+}
+.text{
+	position: absolute;
+	bottom: 55px;
+	left: 124px;
+}
